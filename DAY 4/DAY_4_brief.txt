@@ -1,0 +1,16 @@
+DAY 4 Topics covered and brief info about them
+
+1. Random module 
+--> import random 
+
+==>random.randint() : starts from 1 and goes upto 10 inclusive of 10 and picks random int from this range.
+==>random.random() : Returns random floating number in range [0,1)
+==>random.uniform() : Returns random floating number in range [a,b] inclusive of b
+==>It is adivised to use random.random() instead of random.uniform()
+==>random.choice() :picks up element randoly from a list.
+
+#@ Projects created -
+1.Head or tails - created using random module and if-else statement.
+2.Banker roulete - this is a program of having 4 freinds or more in a list and choosing them randomly to pay the 
+                   the bill for there group. Used random moudle
+ 
