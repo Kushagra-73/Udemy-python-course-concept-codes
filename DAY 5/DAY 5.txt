@@ -1,0 +1,14 @@
+DAY 5
+
+#@ Concepts covered =random module, " ".join() function, for loops and while loops, range()
+
+-->For loops run for specific range.
+-->You can initialize a variable for a loop, eg var=0
+--> random.shuffle() will randomize the elements of a list
+--> list.append() adds a element to exising list 
+--> .join() converts list to a string in the beginning before . enter by what you want to create partition b/w list elements.
+--> take conditional statement of intersection always first
+
+#@ Projects-
+1.Calculating Highest score of among students - use of for loops and if statement
+2.Password_generation.py - Generating a password with taking input from user for number of letters, numbers and symbols in the password then using for loop for adding the random characters of the password into empty string/list using append function or if string then simply logical operator += . Then by using random.shuffle() it will randomize the indexes of the elements of the list which after that will be converted into string using .join() function. 
