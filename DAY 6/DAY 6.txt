@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DAY 6
 
 #@ Concepts covered - functions, defining and calling a function, while loop and if and else
@@ -11,3 +12,18 @@ DAY 6
 --> Different tasks in Reeborg's world website.
 
 
+=======
+DAY 6
+
+#@ Concepts covered - functions, defining and calling a function, while loop and if and else
+
+--> There are two types of functions in python built in functions {len(), int(), float(), max(), set(), list(), etc} and we can create our own functions which is known as defining a function.
+--> Once defined a function we can use it by calling the function.
+--> If we want to define a function for future and not use now we can write pass under defining the function.
+
+
+#@ Projects
+--> Different tasks in Reeborg's world website.
+
+
+>>>>>>> 89514f662a65c3f2314546323888c9010694f796
