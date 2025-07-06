@@ -5,9 +5,7 @@ def greet():
 
 
 greet()
-
-greet()
-
+  
 def function(something):
     # Do this with something
     # Then do this 
