@@ -29,19 +29,21 @@ while not game_over:
 
    
     print(f"**************************** {lives}/6 LIVES LEFT****************************")
+   
     guess = input("Guess a letter: ").lower()
 
     
     if guess in correct_letters:
-        print(f"You have already gussed {guess}")
-
+        print(f"You have already guessed {guess}")
+    
     display = ""
 
     for letter in chosen_word:
-        if letter == guess:
+        if letter == guess:                        #For if letter                  
             display += letter
             correct_letters.append(guess)
-        elif letter in correct_letters:
+        
+        elif letter in correct_letters:            #For if letter already exists in user input string
             display += letter
 
         else:
@@ -52,7 +54,7 @@ while not game_over:
 
 
 
-    if guess not in chosen_word:
+    if guess not in chosen_word:      #Losing life and game block
         lives -= 1
         print(f"You guessed <{guess}> ,a wrong letter, You lose a life")
 
@@ -63,7 +65,7 @@ while not game_over:
             print(f"***********************YOU LOSE**********************")
             print(f"The correct word is {chosen_word} ")
 
-    if "_" not in display:
+    if "_" not in display:            #Wining game block
         game_over = True
         print("****************************YOU WIN****************************")
 
